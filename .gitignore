@@ -1,0 +1,29 @@
+# Виртуальное окружение
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Логи и временные файлы
+*.log
+tmp/
+
+# IDE
+.vscode/
+.idea/
+
+# Файлы БД
+*.db
+*.sqlite3
+
+# Секреты
+config.local.py
+settings.local.py
